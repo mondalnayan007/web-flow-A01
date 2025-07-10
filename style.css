@@ -14,7 +14,7 @@
         /* shared style */
 
 .btn{
-    background-color: #3370ff;
+    background-color: #4e47ff;
     color: white;
     border-radius: 10px;
     padding: 12px 36px 12px 36px;
@@ -22,15 +22,20 @@
     border: none;
 }
 
+.padding{
+    padding: 0 150px;
+}
+
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #f5f8ff;
     
 }
               /* Header section start */
 header{
     background-image: url('./Assets/Hero-bg.png');
     height: 600px;
-    padding: 0 150px;
+    
 }
 
 nav{
@@ -53,5 +58,25 @@ nav{
           /* Action section start */
 
 
-          
-          
+
+.action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin: 116px 0;
+}   
+.action-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.action-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}   
+
+.action-right img{
+        border-radius: 45px;
+}
