@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -69,6 +70,7 @@ nav{
 .action-title{
     font-size: 40px;
     font-weight: 700;
+    color: rgb(37, 36, 50);
     margin-bottom: 16px;
 }
 .action-subtitle{
@@ -79,4 +81,44 @@ nav{
 
 .action-right img{
         border-radius: 45px;
+}
+
+
+
+       /* Productive user section start  */
+
+
+.user-container{
+   text-align: center;
+   background-color: #e3e5ff;
+   border-radius: 24px;
+   padding: 50px 80px;
+   margin-bottom: 130px;
+}
+.user-title{
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    color: rgb(37, 36, 50);
+}
+
+.user-data-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.data-title{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: Inter;
+    color: #4E47FF;
+
+}
+.data-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    color: rgba(0, 0, 0, 0.5);
 }
