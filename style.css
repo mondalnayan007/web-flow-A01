@@ -46,6 +46,13 @@ nav{
     justify-content: space-between;
     padding: 50px 0;
 }
+.nav-logo{
+    
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+    color: rgb(78, 71, 255);
+}
 .hero-section{
     text-align: center;
     margin: 110px 0;
@@ -127,6 +134,9 @@ nav{
 
              /* User feedback section start */
 
+.feedback-section{
+        margin: 120px 0;
+}
 .feedback-section-title{
         text-align: center;
         font-size: 40px;
@@ -134,6 +144,51 @@ nav{
         color: rgb(37, 36, 50);
         margin-bottom: 45px;
         
+}
+
+.feedback-container{
+    display: flex;
+    gap: 20px;
+}
+.feedback{
+    background-color: white;
+    padding: 24px;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+}
+
+.feedback-title{
+    
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(30, 30, 30);
+        margin: 10px 0;
+}
+.feedback-subtitle{
+    
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(30, 30, 30);
+}
+
+.customer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.profile img{
+    border-radius: 100%;
+}
+
+.customer-details{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f4f4f;
+    font-family: Inter;
+
 }
 
 
@@ -207,7 +262,7 @@ footer{
 .footer-section{
     text-align: center;
 } 
-.logo{
+.footer-logo{
     
     font-family: Inter;
     font-size: 70px;
