@@ -21,6 +21,7 @@
     padding: 12px 36px 12px 36px;
     font-weight: 700;
     border: none;
+    margin: 16px 0;
 }
 
 .padding{
@@ -121,4 +122,85 @@ nav{
     font-weight: 400;
     font-family: Inter;
     color: rgba(0, 0, 0, 0.5);
+}
+
+      /* Option section start */ 
+
+.optional{
+    text-align: center;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+.optional-title{
+    font-size: 45px;
+    font-weight: 700;
+   margin-bottom: 16px;
+}
+.optional-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter;
+    color: rgba(0, 0, 0, 0.5);
+   
+}
+.optional img{
+    border-radius: 48px;
+}
+
+        /* Get in Touch section start      */
+
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 70px;
+}
+.connect-title{
+    font-size: 85px;
+    font-weight: 700;
+}  
+.connect-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.connect-right label{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.mail, .name, .message{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.connect-right input ,textarea{
+    padding: 16px 32px 16px 32px;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}     
+
+
+        /* Footer section start */
+
+
+footer{
+    background-color: white;
+}  
+.footer-section{
+    text-align: center;
+} 
+.logo{
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.footer-description{
+    
 }
