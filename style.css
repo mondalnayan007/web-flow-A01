@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.raleway-normal {
+.raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +29,11 @@
     font-weight: 700;
     border: none;
     margin: 16px 0;
+}
+.btn:hover{
+    background-color: white;
+    outline: 1px solid #4e47ff;
+    color:#4e47ff;
 }
 
 .padding{
@@ -46,13 +58,21 @@ nav{
     justify-content: space-between;
     padding: 50px 0;
 }
-.nav-logo{
-    
-    font-family: Inter;
-    font-size: 34px;
-    font-weight: 900;
-    color: rgb(78, 71, 255);
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.logo h1{
+    font-size: 35px;
+    font-family: "Inter";
+}
+
 .hero-section{
     text-align: center;
     margin: 110px 0;
@@ -120,7 +140,7 @@ nav{
 .data-title{
     font-size: 75px;
     font-weight: 700;
-    font-family: Inter;
+   font-family: "Inter";
     color: #4E47FF;
 
 }
@@ -148,6 +168,7 @@ nav{
 
 .feedback-container{
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 .feedback{
@@ -156,6 +177,13 @@ nav{
     border: 1px solid rgb(242, 237, 237);
     border-radius: 14px;
 }
+
+         /* Feedback hover */
+     
+.feedback:hover{
+    scale: 1.1;
+} 
+
 
 .feedback-title{
     
@@ -183,6 +211,7 @@ nav{
     border-radius: 100%;
 }
 
+
 .customer-details{
     font-size: 14px;
     font-weight: 400;
@@ -195,9 +224,12 @@ nav{
       /* Optional section start */ 
 
 .optional{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
     background-color: white;
-    padding: 40px 60px;
+    padding: 40px 80px;
     border-radius: 25px;
     margin-bottom: 80px;
 }
@@ -247,8 +279,11 @@ nav{
 .connect-right input ,textarea{
     padding: 16px 32px 16px 32px;
     border: 1px solid rgb(214, 221, 237);
+    outline: none;
     border-radius: 10px;
     background: rgb(255, 255, 255);
+    width: 100%;
+    font-family: "Inter";
 }     
 
 
@@ -262,14 +297,7 @@ footer{
 .footer-section{
     text-align: center;
 } 
-.footer-logo{
-    
-    font-family: Inter;
-    font-size: 70px;
-    font-weight: 900;
-    margin-bottom: 8px;
-    color: rgb(78, 71, 255);
-}
+
 
 .footer-description{
     
@@ -277,7 +305,7 @@ footer{
     font-size: 16px;
     font-weight: 400;
     color: rgb(137, 135, 161);
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 ul{
@@ -290,9 +318,21 @@ ul li{
     list-style: none;
     
 }
+ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
 
 ul li a{
      text-decoration: none;
      color: rgb(137, 135, 161);
     font-family: Inter;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter";
+     color: rgb(137, 135, 161);
+    margin-top: 100px;
 }
